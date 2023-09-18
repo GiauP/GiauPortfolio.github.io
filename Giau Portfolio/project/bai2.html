@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annie's Burger</title>
+</head>
+<body>
+    <header>
+        <h1 align="center" style="background-color:aliceblue; color: blue;">Annie's <img src="img/bai2/bai2.jpg" alt="burger" width="110" height="80"> Burger</h1>
+    </header>
+    <hr>
+    <main>
+        <h1 align="center">Create a burger!</h1>
+        <form align="center">
+           <label for="protein">What type of protein would you like?</label>
+            <input type="text" id="protein" name="protein"> 
+        </form>
+        <br>
+        <form align="center">
+            <label for="patties">How many patties would you like?</label>
+            <input type="text" id="patties" name="patties">
+        </form>
+        <br>
+        <form align="center">
+            <label for="cooked">How do you want your patty cooked?</label>
+            <br>
+            <p> Rare<input type="range" id="cooked" name="cooked" min="0" max="50">Well-Done</p> 
+        </form>
+        <br>
+        <form align="center">
+            <label for="toppings">What toppings would you like?</label>
+            <br>
+            <input type="checkbox" id="lect" name="toppings">
+            <lable for="lect">Lettuce</lable>
+            <input type="checkbox" id="tom" name="toppings">
+            <lable for="tom">Tomato</lable>
+            <input type="checkbox" id="oni" name="toppings">
+            <lable for="oni">Onion</lable>
+        </form>
+        <br>
+        <form align="center">
+            <label for="cheese">Would you like to add cheese?</label>
+            <br>
+            <input type="radio" id="y" name="question">
+            <label for="y">Yes</label>
+            <input type="radio" id="n" name="question">
+            <label for="n">No</label>
+        </form>
+        <br>
+        <form align="center">
+            <label for="bun">What type of bun would you like?</label>
+            <select size="1">
+                <option>Sesame</option>
+                <option>Beef</option>
+                <option>Pickle</option>
+            </select>
+        </form>
+        <br>
+        <form align="center">
+            <label for="sauce">What type of sauce would you like?</label>
+            <input type="text" id="sauce" name="sauce">
+        </form>
+        <br>
+        <form align="center">
+            <label for="else">Anything else you want to add?</label><br>
+            <textarea type="text" name="details"></textarea>
+        </form>
+        <br>
+        <form align="center">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
